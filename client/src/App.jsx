@@ -22,19 +22,6 @@ import Search from './pages/Search';
 export default function App() {
   return (
     <BrowserRouter>
-      {/* <ToastContainer
-        transition={Slide}
-        position="top-center"
-        autoClose={4000}
-        hideProgressBar={true}
-        newestOnTop={false}
-        closeOnClick
-        rtl={false}
-        pauseOnFocusLoss
-        draggable
-        pauseOnHover
-        theme="colored"
-      /> */}
       <Toaster position="top-center" />
       <Header />
       <Routes>
